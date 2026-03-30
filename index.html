@@ -1,755 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Ankita Pandit's Engineering Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<style>
-::-webkit-scrollbar {
-  width: 10px;
-}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankita Pandit | Data Engineer | Software Engineer | AI Systems Builder</title>
+  <meta name="description" content="Portfolio of Ankita Pandit — Data Engineer, Software Engineer, and AI Systems Builder." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home">Ankita Pandit</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa fa-bars"></i>
+      </button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+      </nav>
+    </div>
+  </header>
 
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 5px;
-}
- 
-::-webkit-scrollbar-thumb {
-  background: #007da3; 
-  border-radius: 5px;
-}
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <article class="card hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> Open to engineering opportunities</div>
+          <h1>Data Engineer • Software Engineer • AI Systems Builder</h1>
+          <p>
+            I design scalable data platforms, backend systems, and AI-powered applications that turn complex workflows into reliable, production-ready solutions. My work spans data pipelines, automation frameworks, cloud migration, and intelligent recommendation systems.
+          </p>
 
-::-webkit-scrollbar-thumb:hover {
-  background: #B6D0E2; 
-}
-</style>
-<style>
-* {box-sizing: border-box}
+          <div class="metric-grid">
+            <div class="metric">
+              <strong>55%</strong>
+              <span>Throughput improvement through cross-functional engineering delivery</span>
+            </div>
+            <div class="metric">
+              <strong>70%+</strong>
+              <span>Manual effort reduced through automation and tooling</span>
+            </div>
+            <div class="metric">
+              <strong>5+ yrs</strong>
+              <span>Experience across enterprise data, backend, and analytics systems</span>
+            </div>
+          </div>
 
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects"><i class="fa fa-folder-open"></i> View Projects</a>
+            <a class="btn btn-secondary" href="ankita_pandit_resume_latest_de.pdf" target="_blank" rel="noopener"><i class="fa fa-file-text-o"></i> Data Engineer Resume</a>
+            <a class="btn btn-secondary" href="ankita_pandit_resume_latest_se.pdf" target="_blank" rel="noopener"><i class="fa fa-file-text-o"></i> Software Engineer Resume</a>
+            <a class="btn btn-secondary" href="https://github.com/ankitapandit" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
+          </div>
+        </article>
 
-#WorkExperience {background-color: transparent;}
-#Education {background-color: transparent;}
-#Projects {background-color: transparent;}
-#TechnicalSkills {background-color: transparent;}
-#Others {background-color: transparent;}
-/*#Contact {background-color: transparent;}*/
-</style>
+        <aside class="card hero-side">
+          <div class="profile-row">
+            <img
+              src="./ankita.png"
+              alt="Ankita Pandit"
+              class="avatar"
+              onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';"
+            />
+            <div id="avatar-fallback" class="avatar avatar-fallback" style="display:none;">AP</div>
+            <div>
+              <h2>Ankita Pandit</h2>
+              <p>Building data-intensive systems, backend workflows, and AI-enabled applications with a focus on scale, reliability, and measurable business impact.</p>
+            </div>
+          </div>
 
-<body class="light-grey">
+          <div class="contact-list">
+            <div class="location"><i class="fa fa-map-marker"></i> Redmond, WA, US</div>
+            <a href="mailto:ankimit7@gmail.com"><i class="fa fa-envelope-o"></i> ankimit7@gmail.com</a>
+            <a href="https://www.linkedin.com/in/ankitapandit" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/ankitapandit" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<!-- Page Container -->
-<div class="content margin-top" style="max-width:1400px;">
-  	<!-- The Grid -->
-	<div class="row-padding">
-  
-		<!-- Left Column -->
-		<div class="third">
-		
-			<div class="white text-grey card-4">
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>About</h2>
+            <p>A balanced profile across data engineering, software engineering, and AI systems.</p>
+          </div>
+        </div>
+        <article class="card about-card">
+          <p>
+            I am an engineer with over five years of experience building data-intensive and enterprise-grade systems across healthcare, aerospace, consulting, and large-scale technology environments. My experience includes designing ETL pipelines, automating migration workflows, building backend services, and improving data quality and operational efficiency for domain-critical systems.
+          </p>
+          <p>
+            More recently, I have focused on extending that foundation into AI-powered applications by developing recommendation systems using retrieval-augmented generation, embeddings, and multimodal intelligence. I am especially interested in roles where data infrastructure, application engineering, and intelligent decision systems come together.
+          </p>
+        </article>
+      </div>
+    </section>
 
-				<div class="container" style="overflow-y:auto;max-height:725px;">
-					<img src="ankita.png" class="avatar" alt="Avatar" style="width:60%;height:60%;display: block;margin-top: 15px;">
-					<hr style="border-top: 1px dotted #96DED1;">
-					<h3 class="center">Ankita Pandit</h3>
-					<h5 class="center">** Open to new Engineering opportunities **</h5>
-					<hr style="border-top: 1px dotted #96DED1;">
-					<p><a href="https://buffalo.joinhandshake.com/users/10458069" target="_blank" title="Visit Handshake Profile"><i class="fa fa-university fa-fw margin-right large text-green"></i>SUNY - University at Buffalo, NY, USA</a></p>
-					<p><a href="mailto:ankimit7@gmail.com" title="Email Ankita"><i class="fa fa-envelope fa-fw margin-right large text-green"></i>ankimit7@gmail.com</a></p>
-					<p><a href="tel:+17166031325" title="Call Ankita"><i class="fa fa-mobile fa-fw margin-right large text-green"></i>+1 (716) 603 - 1325</a></p>
-					<p><a href="https://www.linkedin.com/in/ankitapandit" target="_blank" title="Visit LinkedIn URL"><i class="fa fa-fw margin-right large text-green fa-linkedin"></i>LinkedIn: ankitapandit</a></p>
-					<p><a href="https://www.github.com/ankitapandit" target="_blank" title="Visit Github URL"><i class="fa fa-fw margin-right large text-green fa-github"></i>GitHub: ankitapandit</a></p>
-					<hr style="border-top: 1px dotted #96DED1;">
-					<a href="Resume-ANKITA_PANDIT.pdf" target="_blank" title="Open Resume in New Tab"><i class="fa fa-download fa-fw margin-right small text-green"></i>&nbsp;Resume</a>
-					<hr style="border-top: 1px dotted #96DED1;">
-					<p><a href="https://www.ankitap-photography.com/" target="_blank" title="Visit Photography Portfolio"><i class="fa fa-fw margin-right large text-green fa-camera"></i>Photography Portfolio</a></p>
-					<!-- <p>I have completed B.Tech. in Computer & Communication Engineering from Manipal Institute of Technology. I worked on a 5-month internship project at KPMG Global Services. After which I started my career as a full-time software engineer at Honeywell Technology Solutions in the Aerospace department of Satellite Communication for a year. I am currently pursuing M.S. in Computer Science from University at Buffalo (SUNY) and expected to graduate on February 2020 (Fall 2019). My motto is to be more than just an engineer at any organization.</p> -->
-					<br><br>
-		  		</div>
-	  		</div>
-		</div>
-		<!-- End Left Column -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Featured Projects</h2>
+            <p>Current work that reflects my direction toward intelligent systems and modern engineering workflows.</p>
+          </div>
+        </div>
 
-		<!-- Right Column -->
-		<div class="twothird">
-			<div class="bar text-white" style="background-color: #008080;">
-				<button class="bar-item button" onclick="openTab('WorkExperience')" title="Work Experience" id="defaultOpen"><i class="fa fa-suitcase fa-fw margin-right large"></i>&nbsp;Work Experience</button>
-				<button class="bar-item button" onclick="openTab('Education')" title="Education"><i class="fa fa-university fa-fw margin-right large"></i>&nbsp;Education</button>
-				<button class="bar-item button" onclick="openTab('Project')" title="Graduate and Undergraduate Projects"><i class="fa fa-terminal fa-fw margin-right large"></i>&nbsp;Projects</button>
-				<button class="bar-item button" onclick="openTab('TechnicalSkills')" title="Operating System, Programming Languages and Softwares"><i class="fa fa-id-badge fa-fw margin-right large"></i>&nbsp;Technical Skills</button>
-				<button class="bar-item button" onclick="openTab('Others')" title="Certifications & Participations, Soft Skills and Hobbies"><i class="fa fa-certificate fa-fw margin-right large"></i>&nbsp;Others</button>
-				<!-- <button class="bar-item button" onclick="openTab('Contact')" title="Interested? Reach out..."><i class="fa fa-address-card fa-fw margin-right large"></i>&nbsp;Contact</button> -->
-			</div>
+        <div class="project-grid">
+          <article class="card project-card">
+            <span class="project-badge">Flagship AI Project</span>
+            <h3>LuxeLook AI</h3>
+            <p>
+              LuxeLook AI is an AI-powered fashion recommendation system in active development that generates personalized outfit suggestions using multimodal embeddings and contextual signals such as occasion, weather, user preferences, and wardrobe data.
+            </p>
+            <p class="project-meta"><strong>Focus:</strong> Computer vision, recommendation systems, personalization, backend orchestration</p>
+            <p class="project-meta"><strong>Tech Stack:</strong> Next.js, FastAPI, Supabase, CLIP Embeddings, OpenAI</p>
+            <p class="project-meta"><strong>Current Direction:</strong> Clothing classification, feature extraction, recommendation logic, and full-look generation planning</p>
+            <div class="tag-row">
+              <span class="tag">Multimodal AI</span>
+              <span class="tag">Recommendation Engine</span>
+              <span class="tag">Personalization</span>
+              <span class="tag">In Progress</span>
+            </div>
+          </article>
 
-			<div id="WorkExperience" class="container card white margin-bottom tb" style="overflow-y:auto;max-height:670px;display:none;">
-			  	<h2 class="text-green padding-16"><i class="fa fa-suitcase fa-fw margin-right xxlarge text-green"></i>Work Experience</h2>
-				<div class="container">
-					<button class="collapsible"><b>Data Engineer @ Cognizant Technology Solutions</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>College Station, TX, USA</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>December 2020 - July 2024</h6>
-						<p>
-							<ul class="ul text-grey">
-								<li>Collaborated with cross-functional teams and client stakeholders to deliver high-impact solutions for Apple (client), resulting 55% throughput increase within a year.</li>
-								<li>Developed a full stack impact analysis application to assess transition from legacy systems to modern cloud data warehouse on application stakeholders and BUs; integrated dynamic visualizations to highlight impact to customers, scope of changes and BU-level dependencies. This solution decomposed a complex migration problem to actionable work items, reducing manual effort by 70% across multiple BUs streamlining the decision-making process for their critical systems.</li>
-								<li>Spearheaded a robust ETL pipeline using agile methodology for multi-sourced data  (from Hadoop, Oracle DB, Kafka) and supporting end-to-end data flow for domain-critical applications including iterative bug fixes, data corrections and code update. Ensured high availability and accuracy of data, contributing to better application performance, improved data reliability and accelerated downstream analytics.</li>
-								<li>Contributed to fine-tuning GDPR compliance tool within the domain applications ensuring alignment with data privacy regulations, and improving application compliance check, resulting in 9% reduction in legal compliance flags.</li>
-								<li>Automated data comparison across multiple systems, generating summaries of discrepancies on sample of real-time data. This increased team productivity by 80%, avoiding manual workload and consistency in reports and 10% cost reduction, minimizing redundant database queries.</li>
-								<li>Automated data migration from RDBMS to cloud warehouse by streamlining key tasks such as object dependency resolution, user request validation, DR snapshot creation, system monitoring for DR availability, dynamic adoption of data transfer method, post-transfer data quality checks and snapshot cleanup using Python scripts, resulting in a 65% reduction in manual workload for the team and improving migration throughput and data integrity.</li>
-							</ul>
-						</p>
-					  	<p class="text-grey">Technologies: Spark | Scala | Hadoop | HIVE | YARN | AWS | Python | Kafka | Snowflake | Teradata | Airflow | DataLab | Tableau | Airflow | ETL Pipeline | GDPR | SAP Systems</p>
-					</div>
-				</div>
-				<hr style="border-top: 1px dotted #007da3;">
-				<div class="container">
-					<button class="collapsible"><b>Software Engineer @ Cerner Corporation (now Oracle Health)</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>Kansas City, MO, USA</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>March 2020 - June 2020</h6>
-						<p>
-						<ul class="ul text-grey">
-						  	<li>Implemented web application using React.js and Ruby on Rails for a virtual campus tour, enabling new hires to navigate campuses with ease.</li>
-						</ul>
-						</p>
-					  	<p class="text-grey">Technologies: ReactJS | Ruby | Ruby on Rails | ActiveRecord</p>
-					</div>
-				</div>
-				<hr style="border-top: 1px dotted #007da3;">
-				<div class="container">
-					<button class="collapsible"><b>Software Engineer @ Honeywell Technology Solutions Lab Pvt Ltd</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>Bengaluru, Karnataka, India</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>July 2017 - July 2018</h6>
-						<p>
-						<ul class="ul text-grey">
-						  	<li>Associated with Satellite Communications (SATCOM) division of Honeywell Aerospace SBU</li>
-						  	<li>Developed APIs in C++ for flight maintenance and connectivity, incorporating CI/CD pipeline build for latest aircraft applications using Bash.</li>
-						  	<li>Configured and deployed RADIUS server for AAA validation, improving system reliability, security and access control.</li>
-							<li>Earned a Lean Six Sigma Green Belt Certification for automating Google framework setup in C++ which intuitively generated test file structures and base code for testing, this resulted in annual cost savings of USD 30,000.</li>
-						  	<li>Curated 12 editions of SATCOM advanced research tabloid</li>
-						</ul>
-						</p>
-					  	<p class="text-grey">Technologies: R&D | FastCGI | Lighttpd server | C++ | Reactor Pattern Framework (Publish-Subscribe Model) | AAA setup with RADIUS Server | Bash scripting </p>
-					</div>
-				</div>
-				<hr style="border-top: 1px dotted #007da3;">
-				<div class="container">
-					<button class="collapsible"><b>Technical Intern @ KPMG Global Services</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>Bengaluru, Karnataka, India</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>January 2017 - May 2017</h6>
-						<p class="text-grey">Engineered a comprehensive P&L tool including timesheet application using MS VBA in Excel which streamlined financial reporting and eliminated the need for outsourced or licensed software, driving significant cost savings for the team.</p>
-						<p class="text-grey">Technologies: Visual Basic Application | MS Excel Macros | MS Access Macros</p>
-					</div>
-				</div>
-				<hr style="border-top: 1px dotted #007da3;">
-				<div class="container">
-					<button class="collapsible"><b>Intern @ Linit Exports Pvt Ltd</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>Mumbai, Maharashtra, India</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>June 2016 - July 2016</h6>
-						<p>
-						<ul class="ul text-grey">
-						  	<li>Enhanced the navigational pages of manufacturing website and added QR and Bar codes feature for increasing product tracking efficiency on Order Sales Management ERP portal, increasing traceability of certain key products by 1.5 times.</li>
-						</ul>
-						</p>
-					  	<p class="text-grey">Technologies: PHP | CSS | HTML | JavaScript | jQuery</p>
-					</div>
-				</div>
-				<br>
-			</div>
+          <article class="card project-card">
+            <span class="project-badge">RAG System</span>
+            <h3>AI Food Recommendation System</h3>
+            <p>
+              Designed a retrieval-augmented generation recommendation system that uses structured and unstructured food-related inputs to return relevant suggestions through an embedding and retrieval pipeline.
+            </p>
+            <p class="project-meta"><strong>Focus:</strong> Data ingestion, retrieval quality, vector search, API integration</p>
+            <p class="project-meta"><strong>Tech Stack:</strong> Python, LangChain, OpenAI APIs, ChromaDB, FastAPI, Streamlit</p>
+            <p class="project-meta"><strong>Current Direction:</strong> Improving ingestion robustness, retrieval precision, and recommendation quality</p>
+            <div class="tag-row">
+              <span class="tag">RAG Pipeline</span>
+              <span class="tag">Embeddings</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Vector Store</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-			<div id="Education" class="container card white margin-bottom tb" style="overflow-y:auto;max-height:670px;display:none;">
-				<h2 class="text-green padding-16"><i class="fa fa-university fa-fw margin-right xxlarge text-green"></i>Education</h2>
-				<div class="container">
-					<button class="collapsible"><b>State University of New York at Buffalo</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>Buffalo, New York, USA</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>August 2018 - February 2020</h6>
-						<p class="text-grey"> Master of Science in Computer Science Engineering</p>
-						<p class="text-grey">Coursework: Algorithm Analysis and Design | Advanced Information Retrieval | Computer Security | Distributed System | Data Intensive Computing | Computer Vision and Image Processing | Object Oriented Application Design | Project Management</p>
-					</div>
-				</div>
-				<hr style="border-top: 1px dotted #007da3;">
-				<div class="container">
-					<button class="collapsible"><b>Manipal Institute of Technology</b></button>
-					<div class="content-coll">
-						<h5 class="text-green"><i class="fa fa-map fa-fw margin-right"></i>Manipal, Karnataka, India</h5>
-						<h6 class="text-green"><i class="fa fa-calendar fa-fw margin-right"></i>August 2013 - May 2017</h6>
-						<p class="text-grey">Bachelor of Technology in Computer and Communication Engineering</p>
-						<p class="text-grey">Coursework: Wireless Communication Computing | Cloud Computing | Multimedia Communication | Data Structures | Object Oriented Programming | Advanced Operating System | Database System | Data Mining and Predictive Analysis | Software Engineering | App Development | Network Programming | Wireless Sensor Networks | Embedded Systems </p>
-					</div>
-				</div>
-				<br>
-			</div>
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Selected Experience</h2>
+            <p>Experience summarized to emphasize engineering impact rather than long résumé-style detail.</p>
+          </div>
+        </div>
 
-			<div id="Project" class="container card white margin-bottom tb" style="overflow-y:auto;max-height:670px;display:none;">
-		  		<h2 class="text-green padding-16"><i class="fa fa-terminal fa-fw margin-right xxlarge text-green"></i>Projects</h2>
-		  		<div class="container">
+        <div class="highlight-grid">
+          <article class="highlight-item">
+            <i class="fa fa-cogs"></i>
+            <h3>Automation Systems</h3>
+            <p>Built Python-based workflows that reduced manual effort across migration, validation, and reporting processes by up to 70%.</p>
+          </article>
+          <article class="highlight-item">
+            <i class="fa fa-exchange"></i>
+            <h3>Data Pipelines</h3>
+            <p>Designed scalable ETL pipelines integrating Kafka, Oracle, Hadoop, and cloud warehouses for reliable downstream analytics.</p>
+          </article>
+          <article class="highlight-item">
+            <i class="fa fa-cloud-upload"></i>
+            <h3>Cloud Migration</h3>
+            <p>Automated critical RDBMS-to-cloud warehouse migration steps including dependency checks, DR snapshots, transfer strategy, and post-load validation.</p>
+          </article>
+          <article class="highlight-item">
+            <i class="fa fa-check-square-o"></i>
+            <h3>Data Quality</h3>
+            <p>Developed cross-system comparison tooling to surface discrepancies quickly and improve confidence in analytics and reporting.</p>
+          </article>
+        </div>
 
-			  		<h3 class="text-dark-grey"><i class="fa margin-right text-green"></i>Graduate Projects</h3>
+        <div class="two-col top-gap">
+          <article class="card experience-card">
+            <h3>Data Engineer • Cognizant Technology Solutions</h3>
+            <div class="role-meta">
+              <span><i class="fa fa-calendar-o"></i> Dec 2020 – Jul 2024</span>
+              <span><i class="fa fa-map-marker"></i> College Station, TX</span>
+              <span><i class="fa fa-briefcase"></i> Client: Apple</span>
+            </div>
+            <p class="experience-summary">
+              Built scalable automation and data engineering solutions for enterprise migration, data movement, validation, and operational reporting in a high-impact client environment.
+            </p>
+            <ul class="experience-list">
+              <li>Improved throughput by 55% through cross-functional delivery and high-impact engineering execution.</li>
+              <li>Built an impact analysis application that decomposed legacy-to-cloud migration scope into actionable work items, reducing manual effort by 70%.</li>
+              <li>Developed ETL workflows across Hadoop, Oracle DB, Kafka, and cloud warehouse systems to support downstream analytics and application reliability.</li>
+              <li>Automated data migration checks including dependency resolution, request validation, DR support, transfer strategy, and post-transfer data quality verification.</li>
+            </ul>
+          </article>
 
-			  		<div class="container">
-						<button class="collapsible"><a href="https://github.com/ankitapandit/ms_fall18_projects/tree/master/advanced_ir_635/data_digest" target="_blank">Data Digest: Text Extraction & Summarization - Advanced Information Retrieval Project</a>&nbsp;<i class="fa fa-external-link"></i></button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-							  <li>Implementation of text extraction and summarization application for election violence. The data source is typically news and social media such as Twitter</li>
-							</ul>
-							<p class="text-black">Technology: Python, Flask, HTML5, CSS3, JavaScript</p>
-							<p class="text-black">Software: Pycharm, Apache Solr</p>
-							<p class="text-black">API: Google Maps API</p>
-						</div>
-			  		</div>
-				  	<div class="container">
-						<button class="collapsible"><a href="https://github.com/ankitapandit/ms_fall18_projects/tree/master/information_retrieval/tweet_analyzer" target="_blank">Tweet Analyzer: Social Media Mining - Information Retrieval Project</a>&nbsp;<i class="fa fa-external-link"></i></button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Implementation of search and analysis on Twitter data like sentiment analysis, distribution graphs, word cloud, trending hashtags indexed on Apache Solr</li>
-							</ul>
-							<p class="text-black">Technology: Python, Flask, HTML5, CSS3, JavaScript</p>
-							<p class="text-black">Software: PyCharm, Amazon EC2, Apache Solr</p>
-						</div>
-				  	</div>
-				  	<div class="container">
-						<button class="collapsible"><a href="https://github.com/ankitapandit/ms_fall18_projects/tree/master/distributed_systems/project1" target="_blank">MyWayPoints - Distributed Systems Project</a>&nbsp;<i class="fa fa-external-link"></i></button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Design and deploy service-based distributed systems demonstrated by basic client-server application that displays and stores weather and waypoints along the route selected using GUI</li>
-							</ul>
-							<p class="text-black">Technology: Python, Flask, HTML5, CSS3, JavaScript</p>
-							<p class="text-black">Software: PyCharm</p>
-							<p class="text-black">API: Google Maps API, OpenWeatherMap API</p>
-						</div>
-				  	</div>
-					<div class="container">
-						<button class="collapsible"><a href="https://github.com/ankitapandit/ms_fall18_projects/tree/master/distributed_systems/project2" target="_blank">Publisher/Subscriber Model implementation - Distributed Systems Project</a>&nbsp;<i class="fa fa-external-link"></i></button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Emulating distributed publish-subscribe model using Docker containers</li>
-							</ul>
-							<p class="text-black">Technology: Python, Flask, HTML5, CSS3, JavaScript</p>
-							<p class="text-black">Software: PyCharm, Docker Containers</p>
-						</div>
-					</div>
-				  	<div class="container">
-						<button class="collapsible"><a href="https://github.com/ankitapandit/ms_fall18_projects/tree/master/data_intensive_computing/project1" target="_blank">Topical data analysis of Influenza/flu from CDC and social media(Twitter) - Data Intensive Computing Project</a>&nbsp;<i class="fa fa-external-link"></i></button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Exploring R and analytics tools ultimately required for representing social media tweets on Flu or Influenza using heat maps and understanding the difference between data obtained from social media and that obtained from Government Health data set, and mold this data to obtain meaningful analysis.</li>
-							</ul>
-							<p class="text-black">Technology: R, Python, Anaconda</p>
-							<p class="text-black">Software: RStudio, Jupyter</p>
-						</div>
-				  	</div>
-				  	<div class="container">
-						<button class="collapsible"><a href="https://github.com/ankitapandit/ms_fall18_projects/tree/master/data_intensive_computing/project2" target="_blank">Big Data Analysis on multiple sources - Data Intensive Computing Project</a>&nbsp;<i class="fa fa-external-link"></i></button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Analyze data on given topic from 3 different sources (Common Crawl, New York Times and Twitter) using Hadoop and visualizing related data</li>
-							</ul>
-							<p class="text-black">Technology: Python, Hadoop Map Reduce</p>
-							<p class="text-black">Software: PyCharm, Tableau, Hadoop/Cloudera Docker</p>
-							<p class="text-black">API: New York Times API, Twitter API</p>
-						</div>
-				  	</div>
-				  	<div class="container">
-						<button class="collapsible">Event Management Contract - Blockchain Project</button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Build an understanding of Ethereum Blockchain by deploying an ‘Event Management System’ on Blockchain using Solidity and Remix IDE</li>
-							</ul>
-							<p class="text-black">Technology: Solidity</p>
-							<p class="text-black">Software:Remix IDE</p>
-						</div>
-				  	</div>
-			  		<hr style="border-top: 1px dotted #007da3;">
+          <article class="card experience-card">
+            <h3>Earlier Engineering Experience</h3>
+            <ul class="experience-list">
+              <li><strong>Cerner Corporation:</strong> Built a React and Ruby on Rails web application supporting a virtual campus experience for new hires.</li>
+              <li><strong>Honeywell Technology Solutions:</strong> Developed C++ APIs for aerospace connectivity and maintenance workflows, configured RADIUS-based AAA validation, and earned Lean Six Sigma Green Belt recognition for automation-led savings.</li>
+              <li><strong>KPMG Global Services:</strong> Built a VBA-driven P&amp;L and timesheet solution to streamline internal financial reporting processes.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-			  		<h3 class="text-dark-grey"><i class="fa margin-right text-green"></i>Under-Graduate Projects</h3>
-			  
-				  	<div class="container">
-						<button class="collapsible">Doctor Appointment Mobile App - Mobile Application Development Project</button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Implementation of doctor appointment booking mobile app with cloud support</li>
-							</ul>
-							<p class="text-black">[Eclipse for Android Development, Android SDK, IBM BlueMix]</p>
-						</div>
-				  	</div>
-				  	<div class="container">
-						<button class="collapsible">Gaming Sales Analysis - Big Data Project</button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Analysis of gaming sales data for pattern analysis using Hadoop MapReduce, Hive and PigLatin Script</li>
-							</ul>
-							<p class="text-black">[Hive, Pig Latin script, MapReduce, R]</p>
-						</div>
-				  	</div>
-				  	<div class="container">
-						<button class="collapsible">Air Quality Analysis - Wireless Sensors Network Project</button>
-						<div class="content-coll">
-							<ul class="ul text-black">Project Description:
-								<li>Collect and analyze air quality using various wireless sensors and present statistical proof of the data</li>
-							</ul>
-							<p class="text-black">[Libellium Waspmote]</p>
-						</div>
-				  	</div>
-				</div>
-				<br>
-			</div>
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Skills</h2>
+            <p>Structured to support both Data Engineer and Software Engineer positioning.</p>
+          </div>
+        </div>
 
-			<div id="TechnicalSkills" class="container card white margin-bottom tb" style="overflow-y:auto;max-height:670px;display:none;">
-				<h2 class="text-green padding-16"><i class="fa fa-id-badge fa-fw margin-right xxlarge text-green"></i>Technical Skills</h2>
-				<div class="text-green">
+        <article class="card skills-card">
+          <div class="skills-layout">
+            <div class="skill-group">
+              <h4>Programming</h4>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Java</span>
+                <span class="tag">C++</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Scala</span>
+                <span class="tag">Bash</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Data Engineering</h4>
+              <div class="tag-row">
+                <span class="tag">ETL / ELT</span>
+                <span class="tag">Data Modeling</span>
+                <span class="tag">Data Quality</span>
+                <span class="tag">Data Warehousing</span>
+                <span class="tag">Workflow Automation</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Platforms & Cloud</h4>
+              <div class="tag-row">
+                <span class="tag">AWS</span>
+                <span class="tag">Snowflake</span>
+                <span class="tag">Kafka</span>
+                <span class="tag">Hadoop</span>
+                <span class="tag">Airflow</span>
+                <span class="tag">Teradata</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>AI / Intelligent Systems</h4>
+              <div class="tag-row">
+                <span class="tag">RAG Pipelines</span>
+                <span class="tag">LangChain</span>
+                <span class="tag">OpenAI APIs</span>
+                <span class="tag">ChromaDB</span>
+                <span class="tag">CLIP Embeddings</span>
+                <span class="tag">Recommendation Systems</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Backend & Application Development</h4>
+              <div class="tag-row">
+                <span class="tag">FastAPI</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">React</span>
+                <span class="tag">Ruby on Rails</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">Next.js</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Visualization & Analytics</h4>
+              <div class="tag-row">
+                <span class="tag">Tableau</span>
+                <span class="tag">DataLab</span>
+                <span class="tag">Impact Analysis</span>
+                <span class="tag">Reporting Automation</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-					<div class="container">
-						<button class="collapsible"><b><i class="fa fa-microchip fa-fw margin-right text-green"></i>Operating System</b></button>
-						<div class="content-coll">
-							<ul class="ul hover-color">
-								<li class="hover-red">Ubuntu Versions - 12.04, 16.04, 18.04</li>
-								<li class="hover-blue">Windows Versions - Server 2008 R2, XP, Vista, 2000 and above</li>
-								<li class="hover-yellow">Red Hat Linux 5.0</li>
-								<li class="hover-green">Raspbian</li>
-								<li class="hover-purple">CentOS</li>
-							</ul>
-						</div>
-					</div>
-					<hr style="border-top: 1px dotted #007da3;">
-					<div class="container">
-						<button class="collapsible"><b><i class="fa fa-code fa-fw margin-right text-green"></i>Programming Languages</b></button>
-						<div class="content-coll">
-							<table class="table hoverable">
-								<tr class="green">
-									<th>Language</th>
-									<th>Proficiency</th>
-								</tr>
-								<tr>
-									<td>Java</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Python</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>C++</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Hadoop</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Visual Basic Application</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>PHP</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>HTML</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>HIVE</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>SQL</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>ReactJS</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Ruby</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Spark</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Bash</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>CSS</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>R</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>Scala</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>JavaScript</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-								<tr>
-									<td>AJAX</td>
-									<td>
-										<span class="fa fa-star checked"></span>
-										<span class="fa fa-star-half-full checked"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-										<span class="fa fa-star"></span>
-									</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<hr style="border-top: 1px dotted #007da3;">
-					<div class="container">
-						<button class="collapsible"><b><i class="fa fa-laptop fa-fw margin-right text-green"></i>Softwares</b></button>
-						<div class="content-coll">
-						  	<table class="table">
-								<tr>
-									<td>PyCharm</td>
-									<td>Microsoft Office</td>
-									<td>Cisco Packet Tracer</td>
-									<td>Abyss Web Server</td>
-								</tr>
-								<tr>
-									<td>NetBeans</td>
-									<td>Adobe Photoshop</td>
-									<td>Wireshark</td>
-									<td>Apache Tomcat</td>
-								</tr>
-								<tr>
-									<td>Eclipse</td>
-									<td>Jupyter</td>
-									<td>Metasploit</td>
-									<td>Lighttpd</td>
-								</tr>
-								<tr>
-									<td>Microsoft Visual Studio</td>
-									<td>WAMP</td>
-									<td>OpenSSL</td>
-									<td>Apache Solr</td>
-								</tr>
-								<tr>
-									<td>Docker</td>
-									<td>Microsoft Visio</td>
-									<td>MySQL</td>
-									<td>Git</td>
-								</tr>
-								<tr>
-									<td>VirtualBox</td>
-									<td>Enterprise Architect</td>
-									<td>SQLite</td>
-									<td>Atlassian JIRA</td>
-								</tr>
-								<tr>
-									<td>Amazon Web Services (AWS)</td>
-									<td>IBM DOORS</td>
-									<td>MongoDB</td>
-									<td>BitBucket</td>
-								</tr>
-								<tr>
-									<td>Keil</td>
-									<td>Rapid Miner</td>
-									<td>Remix IDE</td>
-									<td>MAX PLUS II</td>
-								</tr>
-								<tr>
-									<td>RADIUS</td>
-									<td>Android Studio</td>
-									<td>NFS3</td>
-									<td>Infosphere Studio</td>
-								</tr>
-								<tr>
-									<td>Hortonworks Sandbox</td>
-									<td>IntelliJ</td>
-									<td>Jupyter</td>
-									<td>YARN</td>
-								</tr>
-								<tr>
-									<td>Tableau</td>
-									<td>PuTTY</td>
-									<td>Spyder</td>
-									<td>Apache Ambari</td>
-								</tr>
-								<tr>
-									<td>Teradata</td>
-									<td>Snowflake</td>
-									<td>DataLab</td>
-									<td>Apache Airflow</td>
-								</tr>
-						  	</table>
-						</div>
-					</div>
-				</div>
-				<br>
-			</div>
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Education & Certifications</h2>
+            <p>Academic foundation supported by continued upskilling in modern data and AI systems.</p>
+          </div>
+        </div>
 
-			<div id="Others" class="container card white margin-bottom tb" style="overflow-y:auto;max-height:670px;display:none;">
-				<h2 class="text-green padding-16"><i class="fa fa-certificate fa-fw margin-right xxlarge text-green"></i>Certifications/Participations; Soft Skills/Hobbies</h2>
-				<div class="text-green">
-					<div class="container">
-						<button class="collapsible"><b><i class="fa fa-trophy fa-fw margin-right text-green"></i>Certifications & Participations</b></button>
-						<div class="content-coll">
-							<ul class="ul hover">
-								<li class="hover">Six Sigma Green Belt Certification: Honeywell -  October 2017</li>
-								<li class="hover">HR Director at The Campus Connect, Student Startup at Manipal {May 2014 - May 2015}</li>
-								<li class="hover">2-week CyberSecurity Workshop by Open Security Academy</li>
-								<li class="hover">4-6 weeks Android Summer Training Programme at HP</li>
-								<li class="hover">Event Organizer at Honeywell for assigned team</li>
-							</ul>
-						</div>
-					</div>
-					<hr style="border-top: 1px dotted #007da3;">
-					<div class="container">
-						<button class="collapsible"><b><i class="fa fa-user-secret fa-fw margin-right text-green"></i>Soft Skills</b></button>
-						<div class="content-coll">
-							<table class="table">
-								<tr>
-									<td>Leadership</td>
-									<td>Collaboration</td>
-								</tr>
-								<tr>
-									<td>Initiative</td>
-									<td>Creative</td>
-								</tr>
-								<tr>
-									<td>Communication</td>
-									<td>Time Management</td>
-								</tr>
-								<tr>
-									<td>Organized</td>
-									<td>Problem-Solving</td>
-								</tr>
-								<tr>
-									<td>Resourceful</td>
-									<td>Adaptable</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<hr style="border-top: 1px dotted #007da3;">
-					<div class="container">
-						<button class="collapsible"><b><i class="fa fa-globe fa-fw margin-right text-green"></i>Hobbies</b></button>
-						<div class="content-coll">
-							<ul class="ul hover">
-								<li class="hover">Badminton</li>
-								<li class="hover">Photography</li>
-								<li class="hover">Hiking</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<br>
-			</div>
+        <div class="education-grid">
+          <article class="card education-card">
+            <h3>Education</h3>
+            <p class="education-meta"><strong>State University of New York at Buffalo</strong><br>Master of Science in Computer Science Engineering</p>
+            <p class="education-meta top-gap-small"><strong>Manipal Institute of Technology</strong><br>Bachelor of Technology in Computer and Communication Engineering</p>
+          </article>
 
-			<!-- <div id="Contact" class="container card white margin-bottom tb" style="overflow-y:auto;max-height:670px;display:none;">
-				<h3 class="text-green padding-16"><i class="fa fa-address-card fa-fw margin-right xxlarge text-green"></i>Interested? Reach out...</h3>
-				<div class="container">
-					<form action="index.php" method="POST">
-					<div class="row">
-						<div class="col" style="width:25%;">
-							<p class="text-dark-grey large">Name:</p>
-						</div>
-						<div class="col" style="width:75%;">
-							<input class="large" type="text" name="name" id="name" placeholder="Enter your preferred name" required>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col" style="width:25%;">
-							<p class="text-dark-grey large">Email:</p>
-						</div>
-						<div class="col" style="width:75%;">
-							<input class="text-dark-grey large" type="email" name="email" id="email" placeholder="abc@xyz.com" required>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col" style="width:25%;">
-							<p class="text-dark-grey large">Organization:</p>
-						</div>
-						<div class="col" style="width:75%;">
-							<input class="text-dark-grey large" type="text" name="org" id="org" placeholder="Enter organization name" required>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col" style="width:25%;">
-							<p class="text-dark-grey large">Message:</p>
-						</div>
-						<div class="col" style="width:75%;">
-							<textarea class="text-dark-grey large" name="message" id="message" rows="6" cols="25" placeholder="Enter message here" required></textarea>
-						</div>
-					</div>
-					<br>
-					<input type="submit" value="Send" title="Send the Email">
-					<input type="reset" value="Clear" title="Clear all fields">
-					<br><br>
-				</form>
-				</div>
-			</div> -->
+          <article class="card cert-card">
+            <h3>Certifications & Ongoing Learning</h3>
+            <ul class="cert-list">
+              <li>Data Engineer Associate — DataCamp</li>
+              <li>Data Engineering Foundations in Python — Educative</li>
+              <li>MCP Fundamentals for Building AI Agents — Educative</li>
+              <li>Advanced RAG Techniques — Educative</li>
+              <li>Master GitHub Copilot — Educative</li>
+              <li>Lean Six Sigma Green Belt — Honeywell</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
-		</div>
-		<!-- End Right Column -->
-  	</div>
-  	<!-- End Grid -->
-</div>
-<!-- End Page Container -->
+  <footer class="footer">
+    <div class="container">
+      <div class="card footer-card">
+        <div>
+          <strong>Ankita Pandit</strong><br>
+          <span>Data Engineer • Software Engineer • AI Systems Builder</span>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:ankimit7@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/ankitapandit" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/ankitapandit" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<script>
-function openTab(pageName) {
-  var i;
-  var x = document.getElementsByClassName("tb");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  document.getElementById(pageName).style.display = "block";  
-}
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
 
-document.getElementById("defaultOpen").click();
-</script>
-
-<footer class="container green center margin-top">
-  <p>Find me on social media.</p>
-  <a href="https://www.facebook.com/ankita.pandit/" target="_blank"><i class="fa fa-facebook-official hover-opacity"></i></a>
-  <a href="https://www.instagram.com/ankitap_photography/" target="_blank"><i class="fa fa-instagram hover-opacity"></i></a>
-  <a href="https://twitter.com/AnkitaPandit6/" target="_blank"><i class="fa fa-twitter hover-opacity"></i></a>
-  <a href="https://www.linkedin.com/in/ankitapandit/" target="_blank"><i class="fa fa-linkedin hover-opacity"></i></a>
-  <a href="https://www.github.com/ankitapandit/" target="_blank"><i class="fa fa-github hover-opacity"></i></a>
-  <p style="font-size: 0.7em;"> Powered using W3 </p>
-</footer>
-
+    if (toggle && navLinks) {
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('is-open');
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+      });
+    }
+  </script>
 </body>
-<script>
-	var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-	this.classList.toggle("active");
-	var content = this.nextElementSibling;
-	if (content.style.display === "block") {
-	  content.style.display = "none";
-	} else {
-	  content.style.display = "block";
-	}
-  });
-}
-</script>
 </html>
