@@ -84,12 +84,7 @@ img { max-width: 100%; display: block; }
   display: grid;
   grid-template-columns: 1.3fr 0.9fr;
   gap: 28px;
-  align-items: start;
-}
-
-.hero-side {
-  position: sticky;
-  top: 100px;
+  align-items: stretch;
 }
 
 .card {
