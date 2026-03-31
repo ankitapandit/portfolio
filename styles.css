@@ -302,6 +302,8 @@ h1 {
 .education-card p,
 .experience-summary,
 .cert-list li,
+.cert-list a,
+,cert-list a:hover,
 .experience-list li,
 .highlight-item p {
   color: var(--muted);
@@ -409,6 +411,17 @@ h1 {
 .experience-list li,
 .cert-list li {
   margin-bottom: 10px;
+}
+
+.cert-list a {
+  color: #0f766e; /* accent color */
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.cert-list a:hover {
+  color: #115e59;
+  text-decoration: none;
 }
 
 .skills-layout {
